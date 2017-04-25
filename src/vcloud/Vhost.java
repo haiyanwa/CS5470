@@ -6,6 +6,7 @@ import java.util.Map;
 //virtual host
 public class Vhost {
 	
+	private int id;
 	//belongs to which server
 	private Server server;
 	private Vtype type;
@@ -25,6 +26,14 @@ public class Vhost {
 	
 	public Vhost(Vtype type){
 		this.type = type;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
 	}
 
 	public Server getServer() {

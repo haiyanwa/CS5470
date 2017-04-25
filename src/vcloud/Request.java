@@ -7,6 +7,7 @@ public class Request {
 	private int id;
 	private Vtype type;
 	private int amount;
+	private int term; // length of the vhost life span
 	
 	public int getId() {
 		return id;
@@ -26,4 +27,11 @@ public class Request {
 	public void setAmount(int amount) {
 		this.amount = amount;
 	}
+	public int getTerm() {
+		return term;
+	}
+	public void setTerm(int term) {
+		this.term = term;
+	}
+	
 }
