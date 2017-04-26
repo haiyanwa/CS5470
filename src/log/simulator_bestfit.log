@@ -1,0 +1,1764 @@
+nullMethod: Best fit
+------------------------------------------------------------------------------
+Request group: 0
+ -------------------------------------------------------------
+End of group: 0 running server : 2
+
+server: 1 cpu level 1700
+server: 0 cpu level 700
+------------------------------------------------------------------------------
+Request group: 10
+ -------------------------------------------------------------
+End of group: 1 running server : 4
+
+server: 3 cpu level 2400
+server: 2 cpu level 1600
+server: 0 cpu level 700
+server: 1 cpu level 500
+------------------------------------------------------------------------------
+Request group: 20
+ -------------------------------------------------------------
+End of group: 2 running server : 5
+
+server: 4 cpu level 1500
+server: 0 cpu level 1600
+server: 2 cpu level 700
+server: 1 cpu level 1200
+server: 3 cpu level 800
+------------------------------------------------------------------------------
+Request group: 30
+ -------------------------------------------------------------
+End of group: 3 running server : 6
+
+server: 5 cpu level 2200
+server: 1 cpu level 300
+server: 4 cpu level 100
+server: 3 cpu level 100
+server: 2 cpu level 300
+server: 0 cpu level 0
+------------------------------------------------------------------------------
+Request group: 40
+ -------------------------------------------------------------
+End of group: 4 running server : 8
+
+server: 6 cpu level 1400
+server: 2 cpu level 300
+server: 5 cpu level 300
+server: 4 cpu level 100
+server: 3 cpu level 1000
+server: 1 cpu level 900
+server: 0 cpu level 600
+server: 7 cpu level 4000
+------------------------------------------------------------------------------
+Request group: 50
+ -------------------------------------------------------------
+End of group: 5 running server : 9
+
+server: 3 cpu level 700
+server: 0 cpu level 2200
+server: 2 cpu level 300
+server: 5 cpu level 300
+server: 6 cpu level 2100
+server: 4 cpu level 1100
+server: 7 cpu level 100
+server: 1 cpu level 0
+server: 8 cpu level 4000
+------------------------------------------------------------------------------
+Request group: 60
+ -------------------------------------------------------------
+End of group: 6 running server : 9
+
+server: 4 cpu level 800
+server: 8 cpu level 1000
+server: 0 cpu level 1200
+server: 3 cpu level 700
+server: 6 cpu level 500
+server: 2 cpu level 300
+server: 5 cpu level 300
+server: 7 cpu level 100
+server: 1 cpu level 0
+------------------------------------------------------------------------------
+Request group: 70
+ -------------------------------------------------------------
+End of group: 7 running server : 11
+
+server: 10 cpu level 3700
+server: 4 cpu level 1500
+server: 8 cpu level 700
+server: 3 cpu level 1400
+server: 6 cpu level 500
+server: 2 cpu level 300
+server: 5 cpu level 600
+server: 0 cpu level 600
+server: 7 cpu level 100
+server: 9 cpu level 900
+server: 1 cpu level 1600
+------------------------------------------------------------------------------
+Request group: 80
+ -------------------------------------------------------------
+End of group: 8 running server : 11
+
+server: 1 cpu level 300
+server: 5 cpu level 600
+server: 0 cpu level 600
+server: 4 cpu level 900
+server: 3 cpu level 1400
+server: 6 cpu level 2100
+server: 2 cpu level 2100
+server: 10 cpu level 300
+server: 9 cpu level 200
+server: 7 cpu level 100
+server: 8 cpu level 1200
+------------------------------------------------------------------------------
+Request group: 90
+ -------------------------------------------------------------
+End of group: 9 running server : 12
+
+server: 11 cpu level 3300
+server: 5 cpu level 600
+server: 0 cpu level 1600
+server: 4 cpu level 900
+server: 8 cpu level 500
+server: 2 cpu level 1200
+server: 6 cpu level 1500
+server: 1 cpu level 300
+server: 10 cpu level 1200
+server: 9 cpu level 1200
+server: 7 cpu level 100
+server: 3 cpu level 700
+------------------------------------------------------------------------------
+Request group: 100
+ -------------------------------------------------------------
+End of group: 10 running server : 12
+
+server: 10 cpu level 1200
+server: 2 cpu level 900
+server: 4 cpu level 1800
+server: 9 cpu level 1200
+server: 6 cpu level 1500
+server: 3 cpu level 700
+server: 0 cpu level 700
+server: 11 cpu level 600
+server: 5 cpu level 1500
+server: 8 cpu level 500
+server: 1 cpu level 2100
+server: 7 cpu level 1300
+------------------------------------------------------------------------------
+Request group: 110
+ -------------------------------------------------------------
+End of group: 11 running server : 12
+
+server: 1 cpu level 400
+server: 4 cpu level 1800
+server: 2 cpu level 3000
+server: 3 cpu level 1400
+server: 0 cpu level 1000
+server: 11 cpu level 3100
+server: 5 cpu level 600
+server: 6 cpu level 1200
+server: 8 cpu level 1200
+server: 7 cpu level 1300
+server: 9 cpu level 300
+server: 10 cpu level 300
+------------------------------------------------------------------------------
+Request group: 120
+ -------------------------------------------------------------
+End of group: 12 running server : 12
+
+server: 3 cpu level 1200
+server: 7 cpu level 1300
+server: 4 cpu level 2100
+server: 6 cpu level 1200
+server: 8 cpu level 2100
+server: 11 cpu level 1200
+server: 0 cpu level 2800
+server: 2 cpu level 800
+server: 5 cpu level 1500
+server: 1 cpu level 400
+server: 9 cpu level 1500
+server: 10 cpu level 300
+------------------------------------------------------------------------------
+Request group: 130
+ -------------------------------------------------------------
+End of group: 13 running server : 12
+
+server: 5 cpu level 1200
+server: 8 cpu level 1200
+server: 3 cpu level 2200
+server: 6 cpu level 1500
+server: 11 cpu level 1200
+server: 0 cpu level 2000
+server: 7 cpu level 2800
+server: 4 cpu level 1600
+server: 2 cpu level 800
+server: 9 cpu level 1500
+server: 1 cpu level 1100
+server: 10 cpu level 1300
+------------------------------------------------------------------------------
+Request group: 140
+ -------------------------------------------------------------
+End of group: 14 running server : 12
+
+server: 0 cpu level 400
+server: 10 cpu level 2200
+server: 3 cpu level 1300
+server: 5 cpu level 1900
+server: 8 cpu level 1500
+server: 11 cpu level 1500
+server: 9 cpu level 3000
+server: 1 cpu level 1400
+server: 4 cpu level 1300
+server: 7 cpu level 900
+server: 2 cpu level 800
+server: 6 cpu level 1500
+------------------------------------------------------------------------------
+Request group: 150
+ -------------------------------------------------------------
+End of group: 15 running server : 12
+
+server: 3 cpu level 1000
+server: 4 cpu level 1600
+server: 10 cpu level 2200
+server: 6 cpu level 1200
+server: 9 cpu level 1100
+server: 5 cpu level 1000
+server: 7 cpu level 900
+server: 8 cpu level 1700
+server: 2 cpu level 1800
+server: 11 cpu level 600
+server: 1 cpu level 500
+server: 0 cpu level 700
+------------------------------------------------------------------------------
+Request group: 160
+ -------------------------------------------------------------
+End of group: 16 running server : 12
+
+server: 9 cpu level 400
+server: 10 cpu level 1000
+server: 3 cpu level 1900
+server: 5 cpu level 1000
+server: 7 cpu level 2500
+server: 4 cpu level 900
+server: 8 cpu level 1500
+server: 0 cpu level 700
+server: 11 cpu level 600
+server: 2 cpu level 600
+server: 1 cpu level 1400
+server: 6 cpu level 500
+------------------------------------------------------------------------------
+Request group: 170
+ -------------------------------------------------------------
+End of group: 17 running server : 12
+
+server: 10 cpu level 1000
+server: 4 cpu level 1200
+server: 1 cpu level 1800
+server: 3 cpu level 1900
+server: 0 cpu level 700
+server: 11 cpu level 2100
+server: 2 cpu level 900
+server: 8 cpu level 1300
+server: 6 cpu level 500
+server: 9 cpu level 400
+server: 7 cpu level 700
+server: 5 cpu level 1200
+------------------------------------------------------------------------------
+Request group: 180
+ -------------------------------------------------------------
+End of group: 18 running server : 12
+
+server: 1 cpu level 1500
+server: 10 cpu level 1900
+server: 4 cpu level 2100
+server: 2 cpu level 1800
+server: 11 cpu level 900
+server: 0 cpu level 1600
+server: 7 cpu level 1400
+server: 8 cpu level 1500
+server: 3 cpu level 600
+server: 6 cpu level 500
+server: 9 cpu level 1300
+server: 5 cpu level 1500
+------------------------------------------------------------------------------
+Request group: 190
+ -------------------------------------------------------------
+End of group: 19 running server : 12
+
+server: 9 cpu level 700
+server: 5 cpu level 1200
+server: 10 cpu level 1000
+server: 0 cpu level 1600
+server: 11 cpu level 1800
+server: 2 cpu level 1200
+server: 1 cpu level 1500
+server: 7 cpu level 1400
+server: 3 cpu level 600
+server: 8 cpu level 2400
+server: 6 cpu level 2400
+server: 4 cpu level 500
+------------------------------------------------------------------------------
+Request group: 200
+ -------------------------------------------------------------
+End of group: 20 running server : 12
+
+server: 7 cpu level 2000
+server: 11 cpu level 1900
+server: 5 cpu level 1500
+server: 2 cpu level 2800
+server: 10 cpu level 1000
+server: 0 cpu level 1600
+server: 8 cpu level 800
+server: 9 cpu level 2100
+server: 3 cpu level 600
+server: 1 cpu level 900
+server: 4 cpu level 800
+server: 6 cpu level 500
+------------------------------------------------------------------------------
+Request group: 210
+ -------------------------------------------------------------
+End of group: 21 running server : 12
+
+server: 2 cpu level 900
+server: 5 cpu level 1500
+server: 9 cpu level 1500
+server: 10 cpu level 1000
+server: 7 cpu level 2000
+server: 1 cpu level 900
+server: 8 cpu level 800
+server: 4 cpu level 800
+server: 0 cpu level 700
+server: 11 cpu level 1000
+server: 3 cpu level 1800
+server: 6 cpu level 800
+------------------------------------------------------------------------------
+Request group: 220
+ -------------------------------------------------------------
+End of group: 22 running server : 12
+
+server: 3 cpu level 0
+server: 2 cpu level 900
+server: 8 cpu level 1500
+server: 4 cpu level 2100
+server: 6 cpu level 1500
+server: 9 cpu level 800
+server: 0 cpu level 1400
+server: 1 cpu level 600
+server: 5 cpu level 500
+server: 7 cpu level 1100
+server: 10 cpu level 300
+server: 11 cpu level 100
+------------------------------------------------------------------------------
+Request group: 230
+ -------------------------------------------------------------
+End of group: 23 running server : 13
+
+server: 9 cpu level 800
+server: 1 cpu level 1800
+server: 2 cpu level 600
+server: 8 cpu level 500
+server: 0 cpu level 1900
+server: 5 cpu level 1200
+server: 6 cpu level 1400
+server: 10 cpu level 1500
+server: 4 cpu level 300
+server: 7 cpu level 500
+server: 11 cpu level 100
+server: 3 cpu level 900
+server: 12 cpu level 4000
+------------------------------------------------------------------------------
+Request group: 240
+ -------------------------------------------------------------
+End of group: 24 running server : 13
+
+server: 0 cpu level 1800
+server: 5 cpu level 3700
+server: 3 cpu level 1200
+server: 1 cpu level 1200
+server: 9 cpu level 1500
+server: 10 cpu level 1100
+server: 12 cpu level 700
+server: 2 cpu level 1200
+server: 8 cpu level 1700
+server: 7 cpu level 500
+server: 6 cpu level 1700
+server: 4 cpu level 300
+server: 11 cpu level 1300
+------------------------------------------------------------------------------
+Request group: 250
+ -------------------------------------------------------------
+End of group: 25 running server : 13
+
+server: 5 cpu level 700
+server: 11 cpu level 1600
+server: 3 cpu level 1900
+server: 1 cpu level 2100
+server: 2 cpu level 2100
+server: 10 cpu level 2000
+server: 8 cpu level 1000
+server: 6 cpu level 1000
+server: 0 cpu level 900
+server: 12 cpu level 700
+server: 9 cpu level 600
+server: 7 cpu level 500
+server: 4 cpu level 300
+------------------------------------------------------------------------------
+Request group: 260
+ -------------------------------------------------------------
+End of group: 26 running server : 13
+
+server: 10 cpu level 700
+server: 3 cpu level 1900
+server: 8 cpu level 1700
+server: 0 cpu level 900
+server: 1 cpu level 1600
+server: 5 cpu level 1000
+server: 12 cpu level 700
+server: 11 cpu level 700
+server: 9 cpu level 600
+server: 7 cpu level 1200
+server: 2 cpu level 300
+server: 4 cpu level 1000
+server: 6 cpu level 800
+------------------------------------------------------------------------------
+Request group: 270
+ -------------------------------------------------------------
+End of group: 27 running server : 13
+
+server: 0 cpu level 1200
+server: 6 cpu level 800
+server: 4 cpu level 1900
+server: 10 cpu level 700
+server: 12 cpu level 2300
+server: 11 cpu level 1600
+server: 1 cpu level 700
+server: 9 cpu level 1500
+server: 8 cpu level 1400
+server: 5 cpu level 300
+server: 2 cpu level 1000
+server: 3 cpu level 1500
+server: 7 cpu level 1000
+------------------------------------------------------------------------------
+Request group: 280
+ -------------------------------------------------------------
+End of group: 28 running server : 13
+
+server: 9 cpu level 300
+server: 12 cpu level 1100
+server: 8 cpu level 2000
+server: 2 cpu level 1000
+server: 7 cpu level 1000
+server: 4 cpu level 1000
+server: 0 cpu level 900
+server: 6 cpu level 2400
+server: 10 cpu level 1400
+server: 1 cpu level 700
+server: 3 cpu level 600
+server: 11 cpu level 1900
+server: 5 cpu level 600
+------------------------------------------------------------------------------
+Request group: 290
+ -------------------------------------------------------------
+End of group: 29 running server : 13
+
+server: 8 cpu level 1400
+server: 2 cpu level 1900
+server: 7 cpu level 1000
+server: 4 cpu level 1300
+server: 0 cpu level 900
+server: 10 cpu level 1000
+server: 1 cpu level 1600
+server: 11 cpu level 1600
+server: 3 cpu level 1500
+server: 5 cpu level 900
+server: 9 cpu level 1300
+server: 6 cpu level 300
+server: 12 cpu level 200
+------------------------------------------------------------------------------
+Request group: 300
+ -------------------------------------------------------------
+End of group: 30 running server : 13
+
+server: 7 cpu level 100
+server: 10 cpu level 1700
+server: 1 cpu level 2100
+server: 0 cpu level 2500
+server: 5 cpu level 2300
+server: 11 cpu level 1800
+server: 8 cpu level 1400
+server: 2 cpu level 1000
+server: 3 cpu level 600
+server: 9 cpu level 1500
+server: 4 cpu level 1200
+server: 6 cpu level 1500
+server: 12 cpu level 2100
+------------------------------------------------------------------------------
+Request group: 310
+ -------------------------------------------------------------
+End of group: 31 running server : 13
+
+server: 5 cpu level 2000
+server: 9 cpu level 1500
+server: 6 cpu level 1500
+server: 12 cpu level 1500
+server: 1 cpu level 1400
+server: 8 cpu level 1400
+server: 10 cpu level 2100
+server: 0 cpu level 1200
+server: 4 cpu level 1200
+server: 11 cpu level 1100
+server: 2 cpu level 1900
+server: 3 cpu level 3100
+server: 7 cpu level 1000
+------------------------------------------------------------------------------
+Request group: 320
+ -------------------------------------------------------------
+End of group: 32 running server : 13
+
+server: 3 cpu level 800
+server: 9 cpu level 2400
+server: 1 cpu level 1400
+server: 8 cpu level 2000
+server: 5 cpu level 1300
+server: 0 cpu level 1200
+server: 4 cpu level 1200
+server: 2 cpu level 1200
+server: 11 cpu level 1400
+server: 7 cpu level 2800
+server: 10 cpu level 800
+server: 12 cpu level 600
+server: 6 cpu level 1300
+------------------------------------------------------------------------------
+Request group: 330
+ -------------------------------------------------------------
+End of group: 33 running server : 13
+
+server: 5 cpu level 1000
+server: 6 cpu level 1300
+server: 9 cpu level 2100
+server: 0 cpu level 1500
+server: 4 cpu level 2400
+server: 2 cpu level 2400
+server: 1 cpu level 1100
+server: 7 cpu level 1100
+server: 8 cpu level 2000
+server: 3 cpu level 800
+server: 10 cpu level 800
+server: 11 cpu level 1700
+server: 12 cpu level 1600
+------------------------------------------------------------------------------
+Request group: 340
+ -------------------------------------------------------------
+End of group: 34 running server : 13
+
+server: 0 cpu level 600
+server: 11 cpu level 1400
+server: 8 cpu level 1300
+server: 6 cpu level 1300
+server: 2 cpu level 1200
+server: 1 cpu level 1100
+server: 7 cpu level 2000
+server: 9 cpu level 1100
+server: 5 cpu level 2000
+server: 4 cpu level 800
+server: 3 cpu level 800
+server: 10 cpu level 1500
+server: 12 cpu level 700
+------------------------------------------------------------------------------
+Request group: 350
+ -------------------------------------------------------------
+End of group: 35 running server : 13
+
+server: 11 cpu level 800
+server: 7 cpu level 1800
+server: 1 cpu level 1400
+server: 8 cpu level 1000
+server: 4 cpu level 800
+server: 3 cpu level 1500
+server: 12 cpu level 1600
+server: 0 cpu level 1800
+server: 10 cpu level 1800
+server: 5 cpu level 1300
+server: 6 cpu level 400
+server: 2 cpu level 1900
+server: 9 cpu level 200
+------------------------------------------------------------------------------
+Request group: 360
+ -------------------------------------------------------------
+End of group: 36 running server : 13
+
+server: 1 cpu level 1400
+server: 5 cpu level 1600
+server: 2 cpu level 1200
+server: 8 cpu level 1000
+server: 7 cpu level 800
+server: 11 cpu level 1100
+server: 4 cpu level 1500
+server: 3 cpu level 800
+server: 12 cpu level 700
+server: 0 cpu level 1300
+server: 10 cpu level 600
+server: 6 cpu level 400
+server: 9 cpu level 200
+------------------------------------------------------------------------------
+Request group: 370
+ -------------------------------------------------------------
+End of group: 37 running server : 13
+
+server: 4 cpu level 1100
+server: 2 cpu level 900
+server: 7 cpu level 1100
+server: 3 cpu level 1700
+server: 11 cpu level 1500
+server: 0 cpu level 700
+server: 12 cpu level 1000
+server: 5 cpu level 1000
+server: 1 cpu level 700
+server: 8 cpu level 1400
+server: 10 cpu level 1300
+server: 6 cpu level 400
+server: 9 cpu level 1200
+------------------------------------------------------------------------------
+Request group: 380
+ -------------------------------------------------------------
+End of group: 38 running server : 13
+
+server: 12 cpu level 1000
+server: 2 cpu level 1800
+server: 11 cpu level 1100
+server: 3 cpu level 1700
+server: 0 cpu level 700
+server: 1 cpu level 700
+server: 5 cpu level 700
+server: 7 cpu level 400
+server: 4 cpu level 400
+server: 10 cpu level 400
+server: 6 cpu level 1300
+server: 9 cpu level 1900
+server: 8 cpu level 500
+------------------------------------------------------------------------------
+Request group: 390
+ -------------------------------------------------------------
+End of group: 39 running server : 13
+
+server: 3 cpu level 1400
+server: 0 cpu level 1900
+server: 1 cpu level 2300
+server: 5 cpu level 2100
+server: 6 cpu level 2400
+server: 8 cpu level 1500
+server: 9 cpu level 400
+server: 7 cpu level 1400
+server: 4 cpu level 400
+server: 10 cpu level 400
+server: 11 cpu level 2000
+server: 12 cpu level 1200
+server: 2 cpu level 0
+------------------------------------------------------------------------------
+Request group: 400
+ -------------------------------------------------------------
+End of group: 40 running server : 13
+
+server: 8 cpu level 1300
+server: 1 cpu level 2100
+server: 3 cpu level 3000
+server: 7 cpu level 2300
+server: 6 cpu level 1400
+server: 12 cpu level 1200
+server: 11 cpu level 1000
+server: 0 cpu level 1000
+server: 5 cpu level 600
+server: 9 cpu level 400
+server: 4 cpu level 1100
+server: 10 cpu level 700
+server: 2 cpu level 1800
+------------------------------------------------------------------------------
+Request group: 410
+ -------------------------------------------------------------
+End of group: 41 running server : 13
+
+server: 1 cpu level 1800
+server: 6 cpu level 1400
+server: 8 cpu level 2200
+server: 12 cpu level 1500
+server: 2 cpu level 1500
+server: 4 cpu level 2000
+server: 11 cpu level 1300
+server: 0 cpu level 1300
+server: 3 cpu level 800
+server: 10 cpu level 1000
+server: 5 cpu level 600
+server: 7 cpu level 500
+server: 9 cpu level 1300
+------------------------------------------------------------------------------
+Request group: 420
+ -------------------------------------------------------------
+End of group: 42 running server : 13
+
+server: 11 cpu level 600
+server: 0 cpu level 1300
+server: 2 cpu level 1500
+server: 1 cpu level 1400
+server: 10 cpu level 2200
+server: 9 cpu level 1300
+server: 3 cpu level 1500
+server: 12 cpu level 600
+server: 5 cpu level 2400
+server: 8 cpu level 1500
+server: 7 cpu level 500
+server: 6 cpu level 500
+server: 4 cpu level 1400
+------------------------------------------------------------------------------
+Request group: 430
+ -------------------------------------------------------------
+End of group: 43 running server : 13
+
+server: 1 cpu level 700
+server: 0 cpu level 2200
+server: 9 cpu level 3100
+server: 2 cpu level 1800
+server: 8 cpu level 800
+server: 10 cpu level 700
+server: 3 cpu level 1800
+server: 11 cpu level 600
+server: 12 cpu level 1500
+server: 5 cpu level 1600
+server: 7 cpu level 1900
+server: 6 cpu level 1200
+server: 4 cpu level 500
+------------------------------------------------------------------------------
+Request group: 440
+ -------------------------------------------------------------
+End of group: 44 running server : 13
+
+server: 12 cpu level 600
+server: 9 cpu level 1400
+server: 5 cpu level 1300
+server: 6 cpu level 1200
+server: 2 cpu level 1100
+server: 3 cpu level 1100
+server: 7 cpu level 1900
+server: 8 cpu level 1700
+server: 0 cpu level 1100
+server: 1 cpu level 700
+server: 10 cpu level 2200
+server: 11 cpu level 900
+server: 4 cpu level 2100
+------------------------------------------------------------------------------
+Request group: 450
+ -------------------------------------------------------------
+End of group: 45 running server : 13
+
+server: 6 cpu level 1200
+server: 7 cpu level 1200
+server: 2 cpu level 2800
+server: 3 cpu level 1100
+server: 0 cpu level 1400
+server: 11 cpu level 2300
+server: 10 cpu level 900
+server: 8 cpu level 800
+server: 1 cpu level 700
+server: 9 cpu level 1000
+server: 12 cpu level 2400
+server: 4 cpu level 500
+server: 5 cpu level 1300
+------------------------------------------------------------------------------
+Request group: 460
+ -------------------------------------------------------------
+End of group: 46 running server : 13
+
+server: 11 cpu level 1400
+server: 12 cpu level 1400
+server: 0 cpu level 3000
+server: 5 cpu level 2200
+server: 6 cpu level 1200
+server: 7 cpu level 1500
+server: 3 cpu level 1100
+server: 9 cpu level 1600
+server: 10 cpu level 900
+server: 8 cpu level 800
+server: 1 cpu level 700
+server: 2 cpu level 1500
+server: 4 cpu level 500
+------------------------------------------------------------------------------
+Request group: 470
+ -------------------------------------------------------------
+End of group: 47 running server : 13
+
+server: 11 cpu level 1400
+server: 12 cpu level 2100
+server: 9 cpu level 1300
+server: 6 cpu level 1500
+server: 0 cpu level 1100
+server: 3 cpu level 1100
+server: 10 cpu level 1800
+server: 8 cpu level 800
+server: 2 cpu level 1100
+server: 1 cpu level 2600
+server: 5 cpu level 1000
+server: 7 cpu level 600
+server: 4 cpu level 800
+------------------------------------------------------------------------------
+Request group: 480
+ -------------------------------------------------------------
+End of group: 48 running server : 13
+
+server: 0 cpu level 800
+server: 3 cpu level 1700
+server: 2 cpu level 1400
+server: 5 cpu level 1600
+server: 1 cpu level 1700
+server: 10 cpu level 800
+server: 8 cpu level 1500
+server: 4 cpu level 1700
+server: 11 cpu level 700
+server: 9 cpu level 600
+server: 7 cpu level 1500
+server: 6 cpu level 2400
+server: 12 cpu level 500
+------------------------------------------------------------------------------
+Request group: 490
+ -------------------------------------------------------------
+End of group: 49 running server : 13
+
+server: 3 cpu level 1900
+server: 2 cpu level 2100
+server: 1 cpu level 1000
+server: 7 cpu level 1500
+server: 8 cpu level 1700
+server: 0 cpu level 800
+server: 10 cpu level 1100
+server: 4 cpu level 800
+server: 11 cpu level 1700
+server: 5 cpu level 700
+server: 9 cpu level 900
+server: 6 cpu level 600
+server: 12 cpu level 1400
+------------------------------------------------------------------------------
+Request group: 500
+ -------------------------------------------------------------
+End of group: 50 running server : 13
+
+server: 10 cpu level 2100
+server: 1 cpu level 1700
+server: 11 cpu level 1000
+server: 3 cpu level 1200
+server: 9 cpu level 900
+server: 2 cpu level 900
+server: 8 cpu level 3100
+server: 0 cpu level 1500
+server: 4 cpu level 1500
+server: 5 cpu level 1900
+server: 7 cpu level 1500
+server: 6 cpu level 2200
+server: 12 cpu level 200
+------------------------------------------------------------------------------
+Request group: 510
+ -------------------------------------------------------------
+End of group: 51 running server : 13
+
+server: 0 cpu level 600
+server: 4 cpu level 2400
+server: 1 cpu level 2100
+server: 6 cpu level 2200
+server: 5 cpu level 1200
+server: 3 cpu level 2100
+server: 10 cpu level 1100
+server: 11 cpu level 2000
+server: 8 cpu level 1000
+server: 9 cpu level 900
+server: 2 cpu level 900
+server: 7 cpu level 800
+server: 12 cpu level 900
+------------------------------------------------------------------------------
+Request group: 520
+ -------------------------------------------------------------
+End of group: 52 running server : 13
+
+server: 4 cpu level 800
+server: 11 cpu level 2800
+server: 6 cpu level 2200
+server: 5 cpu level 1200
+server: 3 cpu level 1200
+server: 1 cpu level 1100
+server: 10 cpu level 2300
+server: 8 cpu level 1900
+server: 9 cpu level 3000
+server: 2 cpu level 1200
+server: 12 cpu level 1600
+server: 7 cpu level 2600
+server: 0 cpu level 1600
+------------------------------------------------------------------------------
+Request group: 530
+ -------------------------------------------------------------
+End of group: 53 running server : 13
+
+server: 11 cpu level 900
+server: 12 cpu level 2500
+server: 0 cpu level 1900
+server: 7 cpu level 1600
+server: 10 cpu level 1400
+server: 6 cpu level 1300
+server: 5 cpu level 2400
+server: 3 cpu level 2100
+server: 2 cpu level 2100
+server: 9 cpu level 1900
+server: 8 cpu level 1200
+server: 1 cpu level 1100
+server: 4 cpu level 800
+------------------------------------------------------------------------------
+Request group: 540
+ -------------------------------------------------------------
+End of group: 54 running server : 13
+
+server: 7 cpu level 700
+server: 3 cpu level 1400
+server: 5 cpu level 1400
+server: 10 cpu level 1400
+server: 2 cpu level 1400
+server: 6 cpu level 2200
+server: 0 cpu level 1200
+server: 8 cpu level 1200
+server: 1 cpu level 2000
+server: 12 cpu level 1000
+server: 9 cpu level 1300
+server: 11 cpu level 3100
+server: 4 cpu level 800
+------------------------------------------------------------------------------
+Request group: 550
+ -------------------------------------------------------------
+End of group: 55 running server : 13
+
+server: 1 cpu level 1000
+server: 6 cpu level 2200
+server: 9 cpu level 1300
+server: 0 cpu level 1200
+server: 8 cpu level 1900
+server: 12 cpu level 2200
+server: 4 cpu level 1800
+server: 5 cpu level 700
+server: 3 cpu level 1000
+server: 7 cpu level 2300
+server: 2 cpu level 1400
+server: 10 cpu level 1600
+server: 11 cpu level 700
+------------------------------------------------------------------------------
+Request group: 560
+ -------------------------------------------------------------
+End of group: 56 running server : 13
+
+server: 2 cpu level 1700
+server: 9 cpu level 2200
+server: 6 cpu level 1200
+server: 8 cpu level 2100
+server: 0 cpu level 2100
+server: 12 cpu level 2100
+server: 4 cpu level 2000
+server: 1 cpu level 1000
+server: 3 cpu level 1000
+server: 10 cpu level 1400
+server: 5 cpu level 700
+server: 11 cpu level 1900
+server: 7 cpu level 700
+------------------------------------------------------------------------------
+Request group: 570
+ -------------------------------------------------------------
+End of group: 57 running server : 13
+
+server: 10 cpu level 1400
+server: 9 cpu level 3000
+server: 0 cpu level 1900
+server: 8 cpu level 1200
+server: 6 cpu level 2100
+server: 4 cpu level 1400
+server: 11 cpu level 1000
+server: 1 cpu level 1700
+server: 3 cpu level 1000
+server: 2 cpu level 1500
+server: 5 cpu level 1700
+server: 7 cpu level 700
+server: 12 cpu level 500
+------------------------------------------------------------------------------
+Request group: 580
+ -------------------------------------------------------------
+End of group: 58 running server : 13
+
+server: 1 cpu level 1500
+server: 10 cpu level 1700
+server: 4 cpu level 3000
+server: 9 cpu level 1300
+server: 8 cpu level 1500
+server: 6 cpu level 1500
+server: 2 cpu level 1200
+server: 11 cpu level 1000
+server: 3 cpu level 1000
+server: 0 cpu level 1800
+server: 5 cpu level 1700
+server: 7 cpu level 1400
+server: 12 cpu level 500
+------------------------------------------------------------------------------
+Request group: 590
+ -------------------------------------------------------------
+End of group: 59 running server : 13
+
+server: 8 cpu level 600
+server: 7 cpu level 2100
+server: 9 cpu level 1600
+server: 2 cpu level 1200
+server: 6 cpu level 1200
+server: 0 cpu level 1100
+server: 10 cpu level 2600
+server: 11 cpu level 1000
+server: 3 cpu level 1000
+server: 4 cpu level 1000
+server: 5 cpu level 1000
+server: 1 cpu level 800
+server: 12 cpu level 1800
+------------------------------------------------------------------------------
+Request group: 600
+ -------------------------------------------------------------
+End of group: 60 running server : 13
+
+server: 2 cpu level 500
+server: 10 cpu level 1100
+server: 12 cpu level 1100
+server: 0 cpu level 2000
+server: 11 cpu level 1900
+server: 3 cpu level 1700
+server: 4 cpu level 1700
+server: 5 cpu level 1700
+server: 1 cpu level 2400
+server: 8 cpu level 600
+server: 7 cpu level 1400
+server: 6 cpu level 500
+server: 9 cpu level 400
+------------------------------------------------------------------------------
+Request group: 610
+ -------------------------------------------------------------
+End of group: 61 running server : 13
+
+server: 0 cpu level 1000
+server: 11 cpu level 1200
+server: 1 cpu level 1200
+server: 10 cpu level 1400
+server: 12 cpu level 2000
+server: 3 cpu level 1000
+server: 4 cpu level 1800
+server: 7 cpu level 1700
+server: 5 cpu level 700
+server: 8 cpu level 1500
+server: 2 cpu level 1200
+server: 6 cpu level 1400
+server: 9 cpu level 1100
+------------------------------------------------------------------------------
+Request group: 620
+ -------------------------------------------------------------
+End of group: 62 running server : 13
+
+server: 4 cpu level 1500
+server: 9 cpu level 1100
+server: 12 cpu level 1800
+server: 6 cpu level 1800
+server: 0 cpu level 1000
+server: 3 cpu level 2600
+server: 7 cpu level 1900
+server: 2 cpu level 2700
+server: 1 cpu level 900
+server: 10 cpu level 700
+server: 5 cpu level 1400
+server: 8 cpu level 1300
+server: 11 cpu level 600
+------------------------------------------------------------------------------
+Request group: 630
+ -------------------------------------------------------------
+End of group: 63 running server : 13
+
+server: 4 cpu level 1200
+server: 5 cpu level 3000
+server: 8 cpu level 1300
+server: 9 cpu level 2700
+server: 2 cpu level 1300
+server: 0 cpu level 2000
+server: 7 cpu level 1000
+server: 12 cpu level 900
+server: 1 cpu level 1800
+server: 6 cpu level 900
+server: 10 cpu level 700
+server: 3 cpu level 1400
+server: 11 cpu level 1500
+------------------------------------------------------------------------------
+Request group: 640
+ -------------------------------------------------------------
+End of group: 64 running server : 13
+
+server: 0 cpu level 600
+server: 8 cpu level 1300
+server: 2 cpu level 1300
+server: 5 cpu level 1300
+server: 4 cpu level 1500
+server: 9 cpu level 1100
+server: 7 cpu level 1000
+server: 12 cpu level 1500
+server: 6 cpu level 900
+server: 1 cpu level 900
+server: 10 cpu level 1400
+server: 11 cpu level 600
+server: 3 cpu level 1200
+------------------------------------------------------------------------------
+Request group: 650
+ -------------------------------------------------------------
+End of group: 65 running server : 13
+
+server: 9 cpu level 400
+server: 7 cpu level 1000
+server: 6 cpu level 1800
+server: 1 cpu level 900
+server: 12 cpu level 800
+server: 0 cpu level 1300
+server: 11 cpu level 1500
+server: 4 cpu level 500
+server: 2 cpu level 400
+server: 8 cpu level 1300
+server: 5 cpu level 1100
+server: 3 cpu level 1000
+server: 10 cpu level 200
+------------------------------------------------------------------------------
+Request group: 660
+ -------------------------------------------------------------
+End of group: 66 running server : 13
+
+server: 12 cpu level 1700
+server: 11 cpu level 1500
+server: 8 cpu level 1500
+server: 4 cpu level 2000
+server: 0 cpu level 1100
+server: 9 cpu level 1100
+server: 2 cpu level 400
+server: 7 cpu level 1000
+server: 3 cpu level 300
+server: 1 cpu level 200
+server: 10 cpu level 200
+server: 5 cpu level 1500
+server: 6 cpu level 200
+------------------------------------------------------------------------------
+Request group: 670
+ -------------------------------------------------------------
+End of group: 67 running server : 13
+
+server: 7 cpu level 300
+server: 12 cpu level 800
+server: 8 cpu level 800
+server: 11 cpu level 1300
+server: 5 cpu level 2100
+server: 2 cpu level 1100
+server: 9 cpu level 700
+server: 3 cpu level 2100
+server: 0 cpu level 500
+server: 1 cpu level 200
+server: 10 cpu level 500
+server: 6 cpu level 200
+server: 4 cpu level 900
+------------------------------------------------------------------------------
+Request group: 680
+ -------------------------------------------------------------
+End of group: 68 running server : 13
+
+server: 12 cpu level 500
+server: 9 cpu level 700
+server: 4 cpu level 900
+server: 5 cpu level 500
+server: 0 cpu level 500
+server: 10 cpu level 2100
+server: 8 cpu level 1400
+server: 2 cpu level 700
+server: 7 cpu level 3300
+server: 3 cpu level 300
+server: 1 cpu level 1100
+server: 6 cpu level 1500
+server: 11 cpu level 1000
+------------------------------------------------------------------------------
+Request group: 690
+ -------------------------------------------------------------
+End of group: 69 running server : 13
+
+server: 10 cpu level 900
+server: 1 cpu level 3000
+server: 11 cpu level 1000
+server: 4 cpu level 2500
+server: 6 cpu level 800
+server: 9 cpu level 1700
+server: 2 cpu level 700
+server: 8 cpu level 1000
+server: 12 cpu level 500
+server: 5 cpu level 500
+server: 0 cpu level 1200
+server: 7 cpu level 1100
+server: 3 cpu level 1000
+------------------------------------------------------------------------------
+Request group: 700
+ -------------------------------------------------------------
+End of group: 70 running server : 13
+
+server: 11 cpu level 1000
+server: 8 cpu level 1700
+server: 3 cpu level 2200
+server: 4 cpu level 1600
+server: 1 cpu level 900
+server: 10 cpu level 2100
+server: 6 cpu level 800
+server: 9 cpu level 800
+server: 2 cpu level 2400
+server: 0 cpu level 500
+server: 12 cpu level 800
+server: 5 cpu level 1500
+server: 7 cpu level 2300
+------------------------------------------------------------------------------
+Request group: 710
+ -------------------------------------------------------------
+End of group: 71 running server : 13
+
+server: 5 cpu level 1700
+server: 2 cpu level 1400
+server: 4 cpu level 1300
+server: 10 cpu level 1200
+server: 7 cpu level 1100
+server: 11 cpu level 1900
+server: 8 cpu level 1000
+server: 1 cpu level 1200
+server: 6 cpu level 1500
+server: 9 cpu level 1500
+server: 12 cpu level 800
+server: 3 cpu level 800
+server: 0 cpu level 1200
+------------------------------------------------------------------------------
+Request group: 720
+ -------------------------------------------------------------
+End of group: 72 running server : 13
+
+server: 1 cpu level 300
+server: 0 cpu level 2100
+server: 7 cpu level 1100
+server: 2 cpu level 1100
+server: 4 cpu level 1000
+server: 8 cpu level 1900
+server: 11 cpu level 2100
+server: 5 cpu level 800
+server: 12 cpu level 1700
+server: 3 cpu level 1700
+server: 6 cpu level 600
+server: 9 cpu level 500
+server: 10 cpu level 300
+------------------------------------------------------------------------------
+Request group: 730
+ -------------------------------------------------------------
+End of group: 73 running server : 13
+
+server: 11 cpu level 1200
+server: 0 cpu level 1100
+server: 12 cpu level 2000
+server: 7 cpu level 1800
+server: 2 cpu level 2000
+server: 4 cpu level 2200
+server: 5 cpu level 2400
+server: 6 cpu level 1500
+server: 9 cpu level 1400
+server: 3 cpu level 500
+server: 8 cpu level 500
+server: 1 cpu level 1900
+server: 10 cpu level 300
+------------------------------------------------------------------------------
+Request group: 740
+ -------------------------------------------------------------
+End of group: 74 running server : 13
+
+server: 4 cpu level 1100
+server: 6 cpu level 2400
+server: 9 cpu level 2400
+server: 2 cpu level 1300
+server: 1 cpu level 2200
+server: 11 cpu level 1200
+server: 7 cpu level 1100
+server: 0 cpu level 1100
+server: 12 cpu level 1000
+server: 5 cpu level 800
+server: 3 cpu level 1400
+server: 8 cpu level 1200
+server: 10 cpu level 600
+------------------------------------------------------------------------------
+Request group: 750
+ -------------------------------------------------------------
+End of group: 75 running server : 13
+
+server: 2 cpu level 600
+server: 11 cpu level 1200
+server: 8 cpu level 1200
+server: 3 cpu level 1100
+server: 4 cpu level 1400
+server: 7 cpu level 1400
+server: 0 cpu level 1100
+server: 12 cpu level 3000
+server: 5 cpu level 800
+server: 6 cpu level 700
+server: 9 cpu level 700
+server: 10 cpu level 600
+server: 1 cpu level 600
+------------------------------------------------------------------------------
+Request group: 760
+ -------------------------------------------------------------
+End of group: 76 running server : 13
+
+server: 4 cpu level 800
+server: 3 cpu level 1800
+server: 8 cpu level 1600
+server: 12 cpu level 800
+server: 5 cpu level 800
+server: 6 cpu level 1400
+server: 9 cpu level 700
+server: 2 cpu level 900
+server: 10 cpu level 1500
+server: 1 cpu level 1600
+server: 7 cpu level 500
+server: 11 cpu level 1500
+server: 0 cpu level 1800
+------------------------------------------------------------------------------
+Request group: 770
+ -------------------------------------------------------------
+End of group: 77 running server : 13
+
+server: 3 cpu level 900
+server: 10 cpu level 1500
+server: 4 cpu level 2000
+server: 12 cpu level 1100
+server: 5 cpu level 1500
+server: 6 cpu level 700
+server: 8 cpu level 700
+server: 9 cpu level 700
+server: 1 cpu level 700
+server: 0 cpu level 1300
+server: 11 cpu level 600
+server: 7 cpu level 1900
+server: 2 cpu level 900
+------------------------------------------------------------------------------
+Request group: 780
+ -------------------------------------------------------------
+End of group: 78 running server : 13
+
+server: 0 cpu level 100
+server: 7 cpu level 900
+server: 3 cpu level 2100
+server: 2 cpu level 1200
+server: 12 cpu level 800
+server: 10 cpu level 1700
+server: 6 cpu level 2100
+server: 8 cpu level 1400
+server: 9 cpu level 700
+server: 1 cpu level 1600
+server: 11 cpu level 1300
+server: 5 cpu level 500
+server: 4 cpu level 1100
+------------------------------------------------------------------------------
+Request group: 790
+ -------------------------------------------------------------
+End of group: 79 running server : 13
+
+server: 3 cpu level 2000
+server: 4 cpu level 1100
+server: 6 cpu level 1100
+server: 8 cpu level 1800
+server: 7 cpu level 1200
+server: 10 cpu level 1700
+server: 12 cpu level 800
+server: 9 cpu level 1400
+server: 1 cpu level 1600
+server: 11 cpu level 1500
+server: 5 cpu level 500
+server: 2 cpu level 500
+server: 0 cpu level 400
+------------------------------------------------------------------------------
+Request group: 800
+ -------------------------------------------------------------
+End of group: 80 running server : 13
+
+server: 8 cpu level 400
+server: 4 cpu level 2000
+server: 6 cpu level 1400
+server: 7 cpu level 900
+server: 12 cpu level 800
+server: 10 cpu level 800
+server: 3 cpu level 800
+server: 11 cpu level 600
+server: 9 cpu level 1400
+server: 5 cpu level 1200
+server: 2 cpu level 1200
+server: 0 cpu level 400
+server: 1 cpu level 400
+------------------------------------------------------------------------------
+Request group: 810
+ -------------------------------------------------------------
+End of group: 81 running server : 14
+
+server: 12 cpu level 800
+server: 10 cpu level 800
+server: 3 cpu level 1500
+server: 6 cpu level 1600
+server: 9 cpu level 1400
+server: 4 cpu level 1000
+server: 5 cpu level 2200
+server: 11 cpu level 600
+server: 2 cpu level 1200
+server: 8 cpu level 1800
+server: 0 cpu level 1300
+server: 1 cpu level 2200
+server: 7 cpu level 1800
+server: 13 cpu level 4000
+------------------------------------------------------------------------------
+Request group: 820
+ -------------------------------------------------------------
+End of group: 82 running server : 14
+
+server: 13 cpu level 900
+server: 3 cpu level 1500
+server: 1 cpu level 1500
+server: 9 cpu level 2100
+server: 5 cpu level 1300
+server: 0 cpu level 1600
+server: 2 cpu level 1900
+server: 4 cpu level 1000
+server: 8 cpu level 1200
+server: 7 cpu level 900
+server: 6 cpu level 900
+server: 12 cpu level 1400
+server: 10 cpu level 800
+server: 11 cpu level 600
+------------------------------------------------------------------------------
+Request group: 830
+ -------------------------------------------------------------
+End of group: 83 running server : 14
+
+server: 5 cpu level 1600
+server: 2 cpu level 1700
+server: 4 cpu level 1700
+server: 13 cpu level 1600
+server: 7 cpu level 900
+server: 6 cpu level 1600
+server: 9 cpu level 900
+server: 3 cpu level 1800
+server: 10 cpu level 1500
+server: 1 cpu level 1400
+server: 0 cpu level 700
+server: 11 cpu level 1500
+server: 12 cpu level 1500
+server: 8 cpu level 1200
+------------------------------------------------------------------------------
+Request group: 840
+ -------------------------------------------------------------
+End of group: 84 running server : 14
+
+server: 2 cpu level 500
+server: 1 cpu level 2400
+server: 10 cpu level 2100
+server: 8 cpu level 1200
+server: 5 cpu level 900
+server: 7 cpu level 1800
+server: 9 cpu level 1200
+server: 3 cpu level 1200
+server: 6 cpu level 1600
+server: 4 cpu level 1100
+server: 13 cpu level 700
+server: 0 cpu level 1600
+server: 12 cpu level 600
+server: 11 cpu level 1500
+------------------------------------------------------------------------------
+Request group: 850
+ -------------------------------------------------------------
+End of group: 85 running server : 14
+
+server: 8 cpu level 1200
+server: 9 cpu level 1200
+server: 3 cpu level 2100
+server: 4 cpu level 1800
+server: 7 cpu level 1200
+server: 5 cpu level 900
+server: 1 cpu level 900
+server: 6 cpu level 1000
+server: 13 cpu level 700
+server: 0 cpu level 700
+server: 11 cpu level 600
+server: 12 cpu level 1500
+server: 2 cpu level 500
+server: 10 cpu level 500
+------------------------------------------------------------------------------
+Request group: 860
+ -------------------------------------------------------------
+End of group: 86 running server : 14
+
+server: 3 cpu level 2000
+server: 6 cpu level 1000
+server: 8 cpu level 1800
+server: 4 cpu level 1200
+server: 5 cpu level 1800
+server: 1 cpu level 900
+server: 7 cpu level 900
+server: 13 cpu level 700
+server: 0 cpu level 700
+server: 11 cpu level 1300
+server: 12 cpu level 1300
+server: 2 cpu level 500
+server: 10 cpu level 800
+server: 9 cpu level 1000
+------------------------------------------------------------------------------
+Request group: 870
+ -------------------------------------------------------------
+End of group: 87 running server : 14
+
+server: 8 cpu level 900
+server: 6 cpu level 1000
+server: 9 cpu level 1000
+server: 1 cpu level 1200
+server: 7 cpu level 1200
+server: 10 cpu level 1500
+server: 13 cpu level 1400
+server: 0 cpu level 1900
+server: 11 cpu level 600
+server: 5 cpu level 800
+server: 2 cpu level 2800
+server: 12 cpu level 400
+server: 4 cpu level 300
+server: 3 cpu level 900
+------------------------------------------------------------------------------
+Request group: 880
+ -------------------------------------------------------------
+End of group: 88 running server : 14
+
+server: 0 cpu level 100
+server: 6 cpu level 1000
+server: 9 cpu level 1000
+server: 2 cpu level 1000
+server: 1 cpu level 1800
+server: 10 cpu level 900
+server: 8 cpu level 900
+server: 3 cpu level 900
+server: 7 cpu level 1600
+server: 5 cpu level 1500
+server: 11 cpu level 600
+server: 12 cpu level 400
+server: 4 cpu level 1300
+server: 13 cpu level 200
+------------------------------------------------------------------------------
+Request group: 890
+ -------------------------------------------------------------
+End of group: 89 running server : 14
+
+server: 10 cpu level 900
+server: 8 cpu level 900
+server: 3 cpu level 900
+server: 5 cpu level 800
+server: 6 cpu level 1600
+server: 7 cpu level 700
+server: 11 cpu level 600
+server: 12 cpu level 400
+server: 13 cpu level 200
+server: 4 cpu level 400
+server: 0 cpu level 1900
+server: 2 cpu level 100
+server: 9 cpu level 100
+server: 1 cpu level 0
+------------------------------------------------------------------------------
+Request group: 900
+ -------------------------------------------------------------
+End of group: 90 running server : 15
+
+server: 14 cpu level 1700
+server: 5 cpu level 800
+server: 6 cpu level 700
+server: 7 cpu level 2500
+server: 11 cpu level 1500
+server: 3 cpu level 600
+server: 12 cpu level 1300
+server: 4 cpu level 400
+server: 13 cpu level 200
+server: 2 cpu level 100
+server: 9 cpu level 1000
+server: 0 cpu level 1000
+server: 8 cpu level 700
+server: 10 cpu level 300
+server: 1 cpu level 300
+------------------------------------------------------------------------------
+Request group: 910
+ -------------------------------------------------------------
+End of group: 91 running server : 15
+
+server: 9 cpu level 700
+server: 5 cpu level 2000
+server: 14 cpu level 800
+server: 6 cpu level 3000
+server: 8 cpu level 700
+server: 3 cpu level 900
+server: 11 cpu level 1400
+server: 4 cpu level 1300
+server: 12 cpu level 400
+server: 10 cpu level 2800
+server: 1 cpu level 300
+server: 13 cpu level 900
+server: 7 cpu level 100
+server: 2 cpu level 1300
+server: 0 cpu level 100
+------------------------------------------------------------------------------
+Request group: 920
+ -------------------------------------------------------------
+End of group: 92 running server : 15
+
+server: 4 cpu level 1500
+server: 2 cpu level 1300
+server: 10 cpu level 1200
+server: 3 cpu level 1800
+server: 13 cpu level 1900
+server: 14 cpu level 1700
+server: 9 cpu level 700
+server: 8 cpu level 2500
+server: 6 cpu level 700
+server: 11 cpu level 700
+server: 5 cpu level 800
+server: 12 cpu level 1300
+server: 1 cpu level 600
+server: 7 cpu level 1300
+server: 0 cpu level 1000
+------------------------------------------------------------------------------
+Request group: 930
+ -------------------------------------------------------------
+End of group: 93 running server : 15
+
+server: 4 cpu level 900
+server: 10 cpu level 1200
+server: 3 cpu level 1800
+server: 14 cpu level 1000
+server: 13 cpu level 1900
+server: 0 cpu level 1000
+server: 7 cpu level 1000
+server: 12 cpu level 1000
+server: 5 cpu level 800
+server: 9 cpu level 1900
+server: 6 cpu level 3000
+server: 11 cpu level 1400
+server: 8 cpu level 1000
+server: 2 cpu level 600
+server: 1 cpu level 2200
+------------------------------------------------------------------------------
+Request group: 940
+ -------------------------------------------------------------
+End of group: 94 running server : 15
+
+server: 6 cpu level 1500
+server: 11 cpu level 1400
+server: 9 cpu level 1200
+server: 13 cpu level 1200
+server: 10 cpu level 2100
+server: 1 cpu level 2100
+server: 14 cpu level 1700
+server: 0 cpu level 1000
+server: 7 cpu level 1000
+server: 12 cpu level 1900
+server: 8 cpu level 1000
+server: 4 cpu level 1600
+server: 5 cpu level 800
+server: 2 cpu level 600
+server: 3 cpu level 900
+------------------------------------------------------------------------------
+Request group: 950
+ -------------------------------------------------------------
+End of group: 95 running server : 15
+
+server: 11 cpu level 1400
+server: 10 cpu level 1200
+server: 9 cpu level 1200
+server: 13 cpu level 1500
+server: 1 cpu level 1400
+server: 0 cpu level 1900
+server: 7 cpu level 1300
+server: 8 cpu level 1900
+server: 4 cpu level 900
+server: 3 cpu level 2100
+server: 12 cpu level 1800
+server: 5 cpu level 800
+server: 6 cpu level 600
+server: 2 cpu level 1500
+server: 14 cpu level 500
+------------------------------------------------------------------------------
+Request group: 960
+ -------------------------------------------------------------
+End of group: 96 running server : 15
+
+server: 7 cpu level 1000
+server: 13 cpu level 2100
+server: 0 cpu level 2100
+server: 10 cpu level 2100
+server: 9 cpu level 2100
+server: 8 cpu level 1500
+server: 2 cpu level 2100
+server: 11 cpu level 1400
+server: 12 cpu level 1800
+server: 1 cpu level 1100
+server: 4 cpu level 2700
+server: 5 cpu level 800
+server: 6 cpu level 1200
+server: 14 cpu level 500
+server: 3 cpu level 500
+------------------------------------------------------------------------------
+Request group: 970
+ -------------------------------------------------------------
+End of group: 97 running server : 15
+
+server: 13 cpu level 1100
+server: 8 cpu level 2400
+server: 11 cpu level 2100
+server: 2 cpu level 1400
+server: 10 cpu level 1500
+server: 6 cpu level 1200
+server: 9 cpu level 1200
+server: 0 cpu level 1100
+server: 1 cpu level 2000
+server: 7 cpu level 2200
+server: 4 cpu level 1200
+server: 12 cpu level 900
+server: 5 cpu level 1800
+server: 14 cpu level 500
+server: 3 cpu level 1400
+------------------------------------------------------------------------------
+Request group: 980
+ -------------------------------------------------------------
+End of group: 98 running server : 15
+
+server: 2 cpu level 2000
+server: 3 cpu level 2400
+server: 1 cpu level 1300
+server: 7 cpu level 2500
+server: 6 cpu level 2100
+server: 9 cpu level 1200
+server: 4 cpu level 1200
+server: 13 cpu level 2000
+server: 0 cpu level 2000
+server: 12 cpu level 1600
+server: 11 cpu level 1200
+server: 10 cpu level 800
+server: 5 cpu level 1800
+server: 8 cpu level 600
+server: 14 cpu level 1400
+------------------------------------------------------------------------------
+Request group: 990
+ -------------------------------------------------------------
+End of group: 99 running server : 15
+
+server: 3 cpu level 800
+server: 12 cpu level 1900
+server: 6 cpu level 1500
+server: 7 cpu level 2700
+server: 14 cpu level 1400
+server: 2 cpu level 1300
+server: 1 cpu level 2000
+server: 9 cpu level 2800
+server: 4 cpu level 1200
+server: 11 cpu level 1200
+server: 13 cpu level 1800
+server: 0 cpu level 1100
+server: 5 cpu level 1900
+server: 10 cpu level 1700
+server: 8 cpu level 600

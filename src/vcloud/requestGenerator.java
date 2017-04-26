@@ -13,7 +13,7 @@ public class requestGenerator {
 		
 		try{
 			PrintWriter writer = new PrintWriter("./src/vcloud/request.list", "UTF-8");
-			for(int i=0;i<100;i++){
+			for(int i=0;i<1000;i++){
 				Random rand = new Random();
 				int t = rand.nextInt(3);
 				

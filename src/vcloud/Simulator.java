@@ -1,6 +1,8 @@
 package vcloud;
 
+import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -13,6 +15,10 @@ import java.util.Comparator;
 public class Simulator {
 	
 	private static Map<Vtype, Integer> vcpu;
+	private static String LOG;
+	private static String LogPath = "src/log/simulator.log";
+	private static boolean debug = false;
+	
 	
 	//compare which server has more space left
 	public static Comparator<Server> ServerComparator = new Comparator<Server>() {
@@ -21,7 +27,6 @@ public class Simulator {
 			return s1.getCpuUnused()- s2.getCpuUnused();
 		}
 	};
-	
 	
 	public static List<Request> readRequest(String filepath) throws IOException{
 		
@@ -75,11 +80,41 @@ public class Simulator {
 			//System.out.println("\n");
 			output = output + "\n";
 		}
-		for(Server s : servers){
+		/**for(Server s : servers){
 			//System.out.println("server cpu level: " + s.getCpuUnused() );
 			output = output + "server cpu level: " + s.getId() + " " + s.getCpuUnused() + "\n";
+		}*/
+		System.out.println(output);
+		showVmCPU(cloud);
+	}
+	
+	public static void showVmCPU(Cloud cloud){
+		ArrayList<Server> servers = (ArrayList<Server>) cloud.getServers();
+		String output = "";
+		for(Server s : servers){
+			//System.out.println("server cpu level: " + s.getCpuUnused() );
+			output = output + "server: " + s.getId() + " cpu level " + s.getCpuUnused() + "\n";
 		}
 		System.out.println(output);
+		LOG = LOG + output;
+	}
+	
+	public static ArrayList<Vhost> getEndofTermVM(Cloud cloud){
+		ArrayList<Server> servers = (ArrayList<Server>) cloud.getServers();
+		ArrayList<Vhost> endOfTermVms = new ArrayList<>();
+		for(Server s : servers){
+			//System.out.println("server: " + s.getId() );
+			
+			for(Vhost v: s.getVhosts()){
+				//System.out.print(v.getType() + " (id:" + v.getId() + " term: " + v.getTerm() + " " + v.getVhostStatus() + " )");
+				if(v.getTerm() <=1){
+					endOfTermVms.add(v);
+				}
+			}
+			
+		}
+		System.out.println();
+		return endOfTermVms;
 	}
 	
 	public static Cloud firstFit(Cloud cloud, List<Request> requests){
@@ -89,9 +124,11 @@ public class Simulator {
 		
 		//process every 10 request as a time slot
 		for(int i=0; i<requests.size(); i=i+10){
+			LOG = LOG + "Request group: " + i + "\n";
 			System.out.println("Request group: " + i);
 			
 			servers = (ArrayList<Server>) cloud.getServers();
+			LOG = LOG + "Current server size: " + servers.size();
 			System.out.println("Current server size: " + servers.size());
 			
 			
@@ -168,7 +205,9 @@ public class Simulator {
 			
 			System.out.println(" -------------------------------------------------------------");
 			System.out.println("End of group: " + i/10 + " running server : " + servers.size() );
-
+			LOG = LOG + " -------------------------------------------------------------\n";
+			LOG = LOG + "End of group: " + i/10 + " running server : " + servers.size() + "\n";
+			LOG = LOG + "\n";
 			servers = (ArrayList<Server>) cloud.getServers();
 			for(Server s : servers){
 				for(Vhost v: s.getVhosts()){
@@ -202,7 +241,168 @@ public class Simulator {
 	}
 	
 	//find the smallest one in the availables
-	public static Cloud bestFit(Cloud cloud, List<Request> requests){
+	public static Cloud bestFit(Cloud cloud, List<Request> requests, boolean Balanced){
+		
+		//get list of servers in the cloud
+		ArrayList<Server> servers = null;
+		
+		if(Balanced == true){
+			LOG = LOG + "Method: Balanced fit\n";
+		}else{
+			LOG = LOG + "Method: Best fit\n";
+		}
+		//process every 10 request as a time slot
+		for(int i=0; i<requests.size(); i=i+10){
+				System.out.println("Request group: " + i);
+				LOG = LOG + "------------------------------------------------------------------------------\n";
+				LOG = LOG + "Request group: " + i + "\n";
+					
+				servers = (ArrayList<Server>) cloud.getServers();
+				System.out.println("Current server size: " + servers.size());
+				
+				//loop through every one of the 10 requests
+				for(int j=i; j<i+10; j++){
+					Vhost vh = null;
+					boolean found = false;
+					
+					//sort the servers, in small -> large order, so fit the smallest available space first
+					Collections.sort(servers, ServerComparator);
+					
+					//balanced fit : fit the server with more space left
+					Collections.reverse(servers);
+					//System.out.println("\n");
+					
+					Request request = requests.get(j);
+					//System.out.println("Serverlist size " + servers.size());
+					//System.out.println("Request " + j + ": " + request.getType());
+					if(debug){
+						LOG = LOG + "Request " + j + ": " + request.getType() + "\n";
+					}
+					//check each running server to find availability
+					for(Server s : servers){
+						System.out.println("Server_" + s.getId() + " cpu: " + s.getCpuUnused());
+						if(debug){
+							LOG = LOG + "Server_" + s.getId() + " cpu: " + s.getCpuUnused() + "\n";
+						}
+						
+						//found available space in an existing server
+						if(vcpu.get(request.getType()) <= s.getCpuUnused() && found == false){
+							//create vhost
+							//System.out.println(vcpu.get(request.getType()) + "<" + s.getCpuUnused());
+							vh = new Vhost();
+							vh.setId(s.getVhosts().size() + 1);
+							vh.setServer(s);
+							vh.setType(request.getType());
+							vh.setVhostStatus(vh.getVhostStatus().RUNNING);
+							vh.setTerm(request.getTerm());
+							//System.out.println("before: " + s.getCpuUnused());
+							s.setCpuUnused(s.getCpuUnused() - vcpu.get(request.getType()));
+							if(debug){
+								System.out.println("after: " + s.getCpuUnused());
+								LOG = LOG + "after: " + s.getCpuUnused() + "\n";
+							}
+							
+							//update vhost list in Server
+							ArrayList<Vhost> vhlist = null;
+							if(s.getVhosts() == null){
+								vhlist = new  ArrayList<>();
+								vhlist.add(vh);
+							}else{
+								vhlist = (ArrayList<Vhost>) s.getVhosts();
+								vhlist.add(vh);
+							}
+							s.setVhosts(vhlist);
+							//System.out.println("Server id:" + s.getId() + " cpu-left " +  s.getCpuUnused() + " " + s.getVhosts().size());
+							//found location already, get out of the loop, go next request
+							found = true;
+						}else{
+							//check next server
+							continue;
+						}
+					}
+					if(vh == null){
+						//no server available
+						//create new server, add to cloud
+						Server newS = new Server(servers.size());
+						if(debug){
+							System.out.println("Create new server" + newS.getId());
+							LOG = LOG + "Create new server" + newS.getId() + "\n";
+						}
+						newS.setCloud(cloud);
+						newS.setServerStatus(newS.getServerStatus().RUNNING);
+						
+						//bring up the new host
+						vh = new Vhost();
+						vh.setId(0);
+						vh.setType(request.getType());
+						vh.setVhostStatus(vh.getVhostStatus().RUNNING);
+						vh.setServer(newS);
+						newS.setCpuUnused(newS.getCpuUnused() - vcpu.get(request.getType()));
+						
+						//update Vhost list in this Server obj
+						ArrayList<Vhost> vhlist = new  ArrayList<>();
+						vhlist.add(vh);
+						
+						newS.setVhosts(vhlist);
+						//System.out.println("vlist " + newS.getVhosts().size());
+						
+						servers.add(newS);
+						cloud.setServers(null);
+						cloud.setServers(servers);
+					}
+				}
+				System.out.println(" -------------------------------------------------------------");
+				System.out.println("End of group: " + i/10 + " running server : " + servers.size() );
+				LOG = LOG + " -------------------------------------------------------------\n";
+				LOG = LOG + "End of group: " + i/10 + " running server : " + servers.size() + "\n";
+				//show server cpu level
+				if(debug){
+					showVmCPU(cloud);
+				}
+				//at the end of the time lot, remove those expired
+				servers = (ArrayList<Server>) cloud.getServers();
+				
+				for(Server s : servers){
+					System.out.println("Server " + s.getId());
+					for(Vhost v: s.getVhosts()){
+						if(v.getVhostStatus().equals(v.getVhostStatus().DOWN)){
+							continue;
+						}
+						//decrease term
+						int term_t = v.getTerm() - 1;
+						
+						
+						if(term_t <= 0){
+							//end of life, turn off
+							v.setVhostStatus(v.getVhostStatus().DOWN);
+							if(debug){
+								System.out.print(" removed vhost " + v.getId() + ": " + v.getType());
+								LOG = LOG + " removed vhost " + v.getId() + ": " + v.getType();
+							}
+							
+							//add back released cpu power
+							//System.out.print(" before " + v.getServer().getCpuUnused());
+							s.setCpuUnused(s.getCpuUnused() + vcpu.get(v.getType()));;
+							//System.out.println(" after " + v.getServer().getCpuUnused());
+							
+						}else{
+							//update the term
+							v.setTerm(term_t);
+						}
+					}
+				}
+				System.out.print("\n");
+				LOG = LOG + "\n";
+				showCloud(cloud); 
+				System.out.println("\n ----------------------------------------------------------");
+				
+		}
+		
+		return cloud;
+	}
+	
+	//consider the next term incoming and outgoing vms in this term
+	public static Cloud bestFitPrediction(Cloud cloud, List<Request> requests){
 		
 		//get list of servers in the cloud
 		ArrayList<Server> servers = null;
@@ -222,12 +422,16 @@ public class Simulator {
 					//sort the servers
 					Collections.sort(servers, ServerComparator);
 					
-					Collections.reverse(servers);
+					//Collections.reverse(servers);
 					System.out.println("\n");
 					
 					Request request = requests.get(j);
 					//System.out.println("Serverlist size " + servers.size());
 					System.out.println("Request " + j + ": " + request.getType());
+					
+					//class to check which vms are going to terminate next term
+					//getEndofTermVM()
+					
 					
 					//check each running server to find availability
 					for(Server s : servers){
@@ -284,13 +488,26 @@ public class Simulator {
 						vhlist.add(vh);
 						
 						newS.setVhosts(vhlist);
-						System.out.println("vlist " + newS.getVhosts().size());
+						//System.out.println("vlist " + newS.getVhosts().size());
 						
 						servers.add(newS);
 						cloud.setServers(null);
 						cloud.setServers(servers);
 					}
 				}
+				
+				//check next 10 requests and consider them as prediction
+				//keep space for them as reservation
+				if((i + 10) < requests.size()){
+					for(int p=i+10; p<i+20; p++){
+						Request p_request = requests.get(p);
+					}
+				}
+				
+				
+				
+				
+				
 				System.out.println(" -------------------------------------------------------------");
 				System.out.println("End of group: " + i/10 + " running server : " + servers.size() );
 				
@@ -309,7 +526,7 @@ public class Simulator {
 							v.setVhostStatus(v.getVhostStatus().DOWN);
 							System.out.print(" removed vhost " + v.getId() + ": " + v.getType());
 							//add back released cpu power
-							System.out.print(v.getServer().getId() + " before " + v.getServer().getCpuUnused());
+							System.out.print( " before " + v.getServer().getCpuUnused());
 							s.setCpuUnused(s.getCpuUnused() + vcpu.get(v.getType()));;
 							System.out.println(" after " + v.getServer().getCpuUnused());
 							
@@ -331,9 +548,9 @@ public class Simulator {
 	public static void main(String[] args) throws IOException  {
 		
 		vcpu = new HashMap<>();
-		vcpu.put(Vtype.SMALL, 200);
-		vcpu.put(Vtype.MEDIUM, 400);
-		vcpu.put(Vtype.LARGE, 800);
+		vcpu.put(Vtype.SMALL, 300);
+		vcpu.put(Vtype.MEDIUM, 700);
+		vcpu.put(Vtype.LARGE, 900);
 		
 		//create cloud 1
 		Cloud c = new Cloud(1);
@@ -378,7 +595,18 @@ public class Simulator {
 		
 		
 		//c = firstFit(c, requests);
-		c = bestFit(c, requests);
+		c = bestFit(c, requests, true);
+		try{
+			
+			FileWriter filewWriter = new FileWriter(LogPath);
+			BufferedWriter buffer = new BufferedWriter(filewWriter);
+			buffer.write(LOG);
+			buffer.close();
+			filewWriter.close();
+		}catch(IOException e){
+			e.getMessage();
+		}
+		
 		System.out.println(c.getServers().size());
 	}
 
