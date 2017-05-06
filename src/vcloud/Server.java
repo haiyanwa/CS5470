@@ -1,6 +1,8 @@
 package vcloud;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 //physical machine in the datacenter
 public class Server {
@@ -13,6 +15,11 @@ public class Server {
 	
 	//server id, identical
 	private int id;
+	
+	//future cpu power, map<groupid, cpu_openup>
+	private static Map<Integer, Integer> futureCPU = new HashMap<>();
+	
+	private int reservedCPU = 0 ;
 	
 	//status
 	enum StatusServer{
@@ -31,6 +38,7 @@ public class Server {
 	
 	public Server(int id){
 		this.id = id;
+		//futureCPU.put(-1, 0);
 	}
 
 	public int getId() {
@@ -71,6 +79,22 @@ public class Server {
 
 	public void setCpuUnused(int cpuUnused) {
 		this.cpuUnused = cpuUnused;
+	}
+
+	public static Map<Integer, Integer> getFutureCPU() {
+		return futureCPU;
+	}
+
+	public static void setFutureCPU(Map<Integer, Integer> futureCPU) {
+		Server.futureCPU = futureCPU;
+	}
+
+	public int getReservedCPU() {
+		return reservedCPU;
+	}
+
+	public void setReservedCPU(int reservedCPU) {
+		this.reservedCPU = reservedCPU;
 	}
 	
 }
