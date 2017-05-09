@@ -97,11 +97,9 @@ public class Simulator {
 		}
 		if(debug){
 			LOG = LOG + output;
+			LOG = LOG + " -------------------------------------------------------------\n";
 		}
-		/**for(Server s : servers){
-			//System.out.println("server cpu level: " + s.getCpuUnused() );
-			output = output + "server cpu level: " + s.getId() + " " + s.getCpuUnused() + "\n";
-		}*/
+		
 		System.out.println(output);
 		showVmCPU(cloud);
 	}
@@ -860,8 +858,12 @@ public static Cloud FFD(Cloud cloud, List<Request> requests){
 			servers = (ArrayList<Server>) cloud.getServers();
 			System.out.println("Current server size: " + servers.size());
 			
+			//sort in increasing order
+			Collections.sort(servers, ServerComparator);
+			
 			//for VMs expiring in next round
 			Map<Vhost,Integer> expiringVMs = new HashMap<>();
+			
 			
 			//---------------------------------------
 			//from second round, remove expired vms
@@ -1173,7 +1175,7 @@ public static Cloud FFD(Cloud cloud, List<Request> requests){
 						ArrayList<Vhost> vhlist = new  ArrayList<>();
 						newS.setVhosts(vhlist);
 					}
-					else if(i > 0 && request.getGroupId() != i){
+					else if(i > 0 && request.getGroupId() != i && request.getGroupId() != -1){
 						newS.setReservedCPU(newS.getReservedCPU() + vcpu.get(request.getType()));
 						newS.setCpuUnused(newS.getCpuUnused() - vcpu.get(request.getType()));
 						found = true;
